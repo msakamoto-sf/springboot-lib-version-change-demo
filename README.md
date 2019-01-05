@@ -18,6 +18,11 @@ pom.xml中でTomcatとh2databaseのバージョンをカスタマイズしています。
 
 上記version指定を外したり、戻したりしてみて、表示されるバージョンがどう変わるか見てみてください。
 
+関連記事 :
+
+- SpringBoot の依存ライブラリのバージョンをカスタマイズ(Maven版) - Qiita
+  - https://qiita.com/msakamoto_sf/items/2e416216a7e50849d87e
+
 ## 実行環境
 
 * 2019-01時点でJava8で動作確認しています。

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Spring Boot library version change demo</title>
+</head>
+<body>
+<table border="1">
+<tr>
+<th><code>servletContext.getMajorVersion()</code></th>
+<td data-th-text="${containerMajorVersion}"></td>
+</tr>
+<tr>
+<th><code>servletContext.getMinorVersion()</code></th>
+<td data-th-text="${containerMinorVersion}"></td>
+</tr>
+<tr>
+<th><code>servletContext.getServerInfo()</code></th>
+<td data-th-text="${serverInfo}"></td>
+</tr>
+<tr>
+<th><code>SELECT H2VERSION()</code></th>
+<td data-th-text="${h2version}"></td>
+</tr>
+</table>
+</body>
+</html>
